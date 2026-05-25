@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$$DOCUMENT_TITLE$$</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/navBarStyle.css">
+    <link rel="icon" type="image/x-icon" href="../assets/img/StudyIcon.png" >
+</head>
+<body>
+    <!--Login-->
+    <div class="NavBar">
+        <a href="/" style=" position: absolute; margin-left: 20px; "><img  src="../assets/img/StudyLogo.png" style="width: 100%px; height: 40px; transform: rotate(15deg); "></a>
+        
+        <div class="nav-content">
+            <a href="/" style="margin-left: 78px; font-size: 30px; font-weight: bold; text-decoration: none; color: white;">StudyRoom</a>
+
+            <a class="nav-btn" href="/creditpage">Credit</a>
+        </div>
+        <div class="nav-content" style="margin-right: 20px;">
+            <button class="nav-btn" id="OpenLoginButton">Login</button>
+            <button class="nav-btn" id="LogOutButton">Log Out</button>
+            <button class="nav-btn" id="OpenSignUpButton">Sign Up</button>
+            <h3 id="UserLoggedIn">👤</h3>
+        </div>
+
+
+        
+    </div>
+    
+    <div id="PopUp" class="popUp">
+        <div class="popUp-content">
+            <span class="x" id="ClosePopupButton">&times;</span>
+
+            <h2 id="PopUpText" style="font-weight: bold;">Login</h2>
+
+            <input id="Username" type="text" placeholder="Username...">
+            <input id="Password" type="password" placeholder="Password...">
+            <input id="PasswordAgain" type="password" placeholder="Password Again...">
+        
+
+            <button id="SignupButton">Sign Up</button>
+            <button id="LoginButton">Login</button>
+        </div>
+    </div>
+    

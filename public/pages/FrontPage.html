@@ -1,0 +1,30 @@
+<div style="display: flex; ">
+    <div class="groupBar" id="GroupsBar"></div>
+
+    <div id="ChatDiv" class="ChatDiv">
+        <div class="ChatMessagesParentDiv">
+            <div class="ChatMessagesDiv" id="ChatMessagesDiv">
+
+            </div>
+        </div>
+       
+        <input id="ChatInput" type="text" placeholder="Send A Message">
+
+        <div class="menuContainer">
+            <p id="GroupTitleText"></p>
+            <button class="menuButton">⋮</button>
+
+            <div class="dropdown">
+                <button id="AddUserButton">Add User</button>
+                <button id="LeaveGroupButton" style="color: rgb(165, 2, 2);">Leave Group</button>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+ 
+
+<script src="/socket.io/socket.io.js"></script>
+<script type="module" src="/assets/js/Groups.js"></script>
+<script type="module" src="/assets/js/Messages.js"></script>
